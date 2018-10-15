@@ -377,11 +377,11 @@ extension WeatherInfoCell: UICollectionViewDelegate, UICollectionViewDataSource 
             cell.valueLabel.text = airPollution?.khaiValue ?? ""
         case AirPollutionIndex.pm10.rawValue:
             cell.titleLabel.text = "미세먼지"
-            cell.gradeLabel.text = airPollution?.pm10Grade ?? ""
+            cell.gradeLabel.text = airPollution?.pm10Grade1h ?? ""
             cell.valueLabel.text = airPollution?.pm10Value ?? ""
         case AirPollutionIndex.pm25.rawValue:
             cell.titleLabel.text = "초미세먼지"
-            cell.gradeLabel.text = airPollution?.pm25Grade ?? ""
+            cell.gradeLabel.text = airPollution?.pm25Grade1h ?? ""
             cell.valueLabel.text = airPollution?.pm25Value ?? ""
         case AirPollutionIndex.co.rawValue:
             cell.titleLabel.text = "일산화탄소"

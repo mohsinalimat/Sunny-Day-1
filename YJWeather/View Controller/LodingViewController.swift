@@ -40,7 +40,7 @@ class LodingViewController: UIViewController {
         }
         prepareUmdDataFromLocalFile()
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 사용자가 위치서비스 접근 허용을 거부했을 경우
