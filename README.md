@@ -1,4 +1,4 @@
-# YJWeather
+# Sunny Day
 
 
 ## 앱 설명
