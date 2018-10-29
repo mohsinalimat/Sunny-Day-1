@@ -41,7 +41,11 @@
 
 &nbsp;
 ### 문제점 및 해결 과정
-
+* [x] 각각의 공공데이터 API를 호출하는 과정에서 동기적으로 해결해야 하는 상황이 발생(대기오염 정보의 경우 근접측정소 목록 API 호출 -> 측정소별 측정정보 API 호출), 그리고 모든 호출이 종료된 후 데이터를 통합할 적절한 순간이 필요
+    * 완료 클로저만을 사용하여 해결할 경우 가독성이 저하되고 기능별  분리가 의미 없어짐
+    * 따라서 완료 클로저와 DispatchGroup의 enter, leave, notify 메서드를 사용하여 해결 
+* [x] 데이터 출처 기관마다 매개변수로 요구하는 위치 정보 좌표의 기준이 다름
+    * 국토지리정보원의 자료를 참고하여 경위도, TM 좌표, 격자 좌표간의 좌표 변환 클래스를 구현하여 해결
 
 
 &nbsp;
@@ -61,12 +65,12 @@
 ### 리팩토링 목표
 리팩토링 진행에 앞서 다음과 같은 목표를 세웠다. 공부한 내용들은 [블로그](https://0jun0815.github.io)에 정리해둘 것이다. 
 
-[x] 코드 간결화 및 기능의 세분화
-[x] 프로토콜 지향 프로그래밍
-[x] CoreData에 충분한 이해 ([https://0jun0815.github.io/core-data](https://0jun0815.github.io/core-data))
-[ ] Alamofire의 장단점 및 코드 분석
-[x] Instrument 사용해보기
-[ ] UnitTest 사용해보기
+* [x] 코드 간결화 및 기능의 세분화
+* [x] 프로토콜 지향 프로그래밍
+* [x] CoreData에 충분한 이해 ([https://0jun0815.github.io/core-data](https://0jun0815.github.io/core-data))
+* [ ] Alamofire의 장단점 및 코드 분석
+* [x] Instrument 사용해보기
+* [ ] UnitTest 사용해보기
 
 
 
