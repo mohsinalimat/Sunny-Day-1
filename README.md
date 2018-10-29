@@ -19,13 +19,13 @@
 * 현재 하늘 상태에 바뀌는 색상(맑음: 초록색, 구름조금: 노랑색, 구름많음: 주황색, 비: 파랑색, 눈: 하늘색)
 * 사용자의 터치에 따라 요약 정보, 상세 정보를 제공
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/ExtensibelCell.gif)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/ExtensibelCell2.gif)
 
 * 요약 정보에서는 실시간 하늘 상태, 현재 온도, 최고/최저 온도, 습도, 풍향/풍속, 강수확률, 미세먼지 등급을 제공
 * 상세 정보에서는 24시간 동안의 시간대별 날씨 예보와 통합대기 환경, 미세먼지, 초미세먼지, 일산화탄소, 이산화탄소, 오존, 아황산가스 등급과 농도를 확인 가능
 * 하단의 버튼으로 지역 추가, 제거
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/AddRemove.gif)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/AddRemove2.gif)
 
 
 ### 사용된 기술
