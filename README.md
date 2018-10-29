@@ -2,25 +2,22 @@
 
 > 실시간 날씨, 대기오염 정보 그리고 날씨 예보를 제공하며 자주 확인하는 정보만으로 깔끔하게 구현한 애플리케이션
 
-
+&nbsp;
 ## 앱 설명
 
-
+&nbsp;
 ### 실행 화면
 ![](https://github.com/0jun0815/YJWeather/blob/master/Images/Sunny%20Day.png)
 
-
+&nbsp;
 ### 앱스토어
 [Sunny Day](https://itunes.apple.com/kr/app/sunny-day/id1385458263?mt=8)
 
-
+&nbsp;
 ### 기능
 * 리스트 형식으로 지역별 날씨 정보를 제공, 상단부터 현재 위치 정보 그리고 추가된 지역순으로 정렬
 * 현재 하늘 상태에 바뀌는 색상(맑음: 초록색, 구름조금: 노랑색, 구름많음: 주황색, 비: 파랑색, 눈: 하늘색)
 * 사용자의 터치에 따라 요약 정보, 상세 정보를 제공
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/ExtensibelCell2.gif)
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/ExtensibelCell.gif)
 
@@ -28,12 +25,9 @@
 * 상세 정보에서는 24시간 동안의 시간대별 날씨 예보와 통합대기 환경, 미세먼지, 초미세먼지, 일산화탄소, 이산화탄소, 오존, 아황산가스 등급과 농도를 확인 가능
 * 하단의 버튼으로 지역 추가, 제거
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/AddRemove2.gif)
-
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/0jun0815/YJWeather/blob/master/Images/AddRemove.gif)
 
-
+&nbsp;
 ### 사용된 기술
 - 개발언어는 `Swift4.0`을 사용
 - `Alamofire`, `DispatchGroup`을 활용한 `Request 클래스`를 구현하여 HTTP/HTTPS 통신
@@ -45,17 +39,15 @@
 - 터치에 따라 확장, 축소되는 `커스텀 UITableViewCell`, 좌우로 스크롤되는 `커스텀 UICollectionViewCell`을 구현
 - 사용자 검색에 즉시 반응하는 `UISearchBar`를 구현
 
-
+&nbsp;
 ### 문제점 및 해결 과정
 
 
 
-
+&nbsp;
 ### 데이터 출처
 * 기상청(동네예보 정보)
 * 한국환경공단(대기오염 정보, 측정소 정보)
-
-
 
 &nbsp;
 ## 리팩토링
@@ -65,7 +57,7 @@
 
 그리고 네이버 커넥트재단의 부스트코스 에이스 과정에 참여를 하며 새로운 기술과 세련된 코드를 배웠다. 따라서 배운 것들을 적용하여 해당 프로젝트를 좀 더 나은 코드로 개선하고 구현한 기능들에 대한 명확한 이해를 해보자는 목표로 리팩토링을 계획하였다.
 
-
+&nbsp;
 ### 리팩토링 목표
 리팩토링 진행에 앞서 다음과 같은 목표를 세웠다. 공부한 내용들은 [블로그](https://0jun0815.github.io)에 정리해둘 것이다. 
 
